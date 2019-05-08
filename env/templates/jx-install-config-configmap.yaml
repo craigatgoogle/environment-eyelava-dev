@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQYiG1LjqaqEeYeU08VZU92TANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQwZDQ4MDEzMi00MzI2LTQ2OWQtODMzNy03ZjA5ZjdhYmRjNWMw
+    HhcNMTkwNTA4MTY0NTQwWhcNMjQwNTA2MTc0NTQwWjAvMS0wKwYDVQQDEyQwZDQ4
+    MDEzMi00MzI2LTQ2OWQtODMzNy03ZjA5ZjdhYmRjNWMwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQDcgISB0QF4LdMGYWt8QKEucF51+qJxRFVOelwhzMos
+    1X+EB9cg3W0KXBb8hBlfdi26BnCYzGfZ4ycB79JpBAJBpx0Ept/rnCTweOW28b1X
+    S+crsLi2MDoq61ox1mnc4QyN1WjbEZBPbjUfh5jMycd3CZk9PKSw5OcAEQDhHpsx
+    FtjRyE7oc2YPMpQtzRNFC4Da970as/9oLBWp/c7OcpJuwdFfamhyaWsMXKkpHKwU
+    ysropynczU26XuaSBEpv9IoX4UDNrhqJ7ZSBwsAZ+WZq8MO1fmFNSX+YKl2zhnYu
+    NVL5u2LbjcIcHo4itOprKObEwLbZtjrYydd7Up/Q1GR/AgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAG
+    dplyc6Ax/nfLBUNCdCmtgNo3B5n7khD8r5dyMOiVQ9XCwlQkL+FmTgjTzRzofrI0
+    Pqwqsy3q4fveRcliszBNrhn7HulvUh21tR7AIRarkxtQIds38fiDWVw4Cy3KKzoU
+    5VElvhFbddPhpHfJfRlRey63CRo1vtjnBWjs+IjeYQ3u0N9JIcNJ5wtUUb4eMvnl
+    Xs1Oa/dcq+4hfqVtCutjjjR6CDxHaJcG1ApWwPlo55tiB+LOudsD/l2IIw74cWg0
+    JitNOb61SZ961qWLMrk6ga/5ylN1WwH4+lqPZIAUJPSFcQXdQpy1nLm8io35vnNm
+    IEelJlXXsxCvJSxO+UGY
+    -----END CERTIFICATE-----
+  clusterName: eyelava
+  jx-install-version: 2.0.101
+  kubeProvider: gke
+  projectID: graphite-platforms-jenkins-ci
+  region: ""
+  secretsLocation: vault
+  server: https://35.224.7.195
+  systemVaultName: jx-vault-eyelava
+  zone: us-central1-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
